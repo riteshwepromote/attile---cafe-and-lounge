@@ -45,7 +45,7 @@ export default function Navbar() {
         }}
         className={`fixed left-0 right-0 z-50 flex items-center justify-between transition-all duration-500 ${
           isScrolled 
-            ? 'top-0 mx-auto max-w-7xl px-8 py-3 rounded-full shadow-lg mt-5' 
+            ? '-top-9 mx-auto max-w-7xl px-8 py-3 rounded-full shadow-lg mt-5' 
             : 'top-0 w-full px-12 py-4'
         }`}
       >
